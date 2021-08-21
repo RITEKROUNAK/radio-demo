@@ -1,0 +1,1197 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3C823423E065D700F4A594 /* TermsPrivacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C823223E065D700F4A594 /* TermsPrivacy.swift */; };
+		0A3C823523E065D700F4A594 /* BuyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C823323E065D700F4A594 /* BuyScreen.swift */; };
+		0A3C823A23E068AD00F4A594 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3C823923E068AD00F4A594 /* StoreKit.framework */; };
+		0A3C827523E1DCC400F4A594 /* Radio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C827323E1DCC400F4A594 /* Radio.xcdatamodeld */; };
+		0A3C827723E244DF00F4A594 /* FavStationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C827623E244DF00F4A594 /* FavStationsViewController.swift */; };
+		0A3C827923E24A4B00F4A594 /* FavStationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C827823E24A4B00F4A594 /* FavStationTableViewCell.swift */; };
+		0AA2D12A2496144C00E7C2EE /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA2D1292496144C00E7C2EE /* CountriesViewController.swift */; };
+		0AA2D12C24963A1400E7C2EE /* United States.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D12B24963A1400E7C2EE /* United States.json */; };
+		0AA2D12E24963E2600E7C2EE /* Germany.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D12D24963E2600E7C2EE /* Germany.json */; };
+		0AA2D1302496409600E7C2EE /* France.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D12F2496409600E7C2EE /* France.json */; };
+		0AA2D132249655E600E7C2EE /* Colombia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D131249655E600E7C2EE /* Colombia.json */; };
+		0AA2D1342496B29A00E7C2EE /* Brasil.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D1332496B29A00E7C2EE /* Brasil.json */; };
+		0AA2D1362496C11D00E7C2EE /* Spain.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D1352496C11D00E7C2EE /* Spain.json */; };
+		0AA2D1382496CEF700E7C2EE /* Mexico.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D1372496CEF700E7C2EE /* Mexico.json */; };
+		0AA2D13A2496DC5000E7C2EE /* Argentina.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D1392496DC5000E7C2EE /* Argentina.json */; };
+		0AA2D13C2496E3C700E7C2EE /* Italia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D13B2496E3C700E7C2EE /* Italia.json */; };
+		0AA2D13E2497769F00E7C2EE /* Canada.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D13D2497769F00E7C2EE /* Canada.json */; };
+		0AA2D140249777A100E7C2EE /* Netherlands.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D13F249777A100E7C2EE /* Netherlands.json */; };
+		0AA2D14224977FF000E7C2EE /* Chile.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D14124977FF000E7C2EE /* Chile.json */; };
+		0AA2D144249784D800E7C2EE /* Turkey.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D143249784D800E7C2EE /* Turkey.json */; };
+		0AA2D146249788B400E7C2EE /* Indonesia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D145249788B400E7C2EE /* Indonesia.json */; };
+		0AA2D14824978BFC00E7C2EE /* Ecuador.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D14724978BFC00E7C2EE /* Ecuador.json */; };
+		0AA2D14A24978E0000E7C2EE /* Australia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D14924978E0000E7C2EE /* Australia.json */; };
+		0AA2D14C24978EE500E7C2EE /* Romania.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D14B24978EE500E7C2EE /* Romania.json */; };
+		0AA2D14E249791E600E7C2EE /* Venezuela.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D14D249791E600E7C2EE /* Venezuela.json */; };
+		0AA2D1502497947D00E7C2EE /* Dominicana.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D14F2497947D00E7C2EE /* Dominicana.json */; };
+		0AA2D152249796F700E7C2EE /* Poland.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D151249796F700E7C2EE /* Poland.json */; };
+		0AA2D15424979AAB00E7C2EE /* Portugal.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D15324979AAB00E7C2EE /* Portugal.json */; };
+		0AA2D15624979FC200E7C2EE /* Peru.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D15524979FC200E7C2EE /* Peru.json */; };
+		0AA2D1582497A11900E7C2EE /* Switzerland.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D1572497A11900E7C2EE /* Switzerland.json */; };
+		0AA2D15A2497A5DE00E7C2EE /* Haiti.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D1592497A5DE00E7C2EE /* Haiti.json */; };
+		0AA2D15C2497A71200E7C2EE /* Serbia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D15B2497A71200E7C2EE /* Serbia.json */; };
+		0AA2D15E2497A89D00E7C2EE /* Guatemala.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D15D2497A89D00E7C2EE /* Guatemala.json */; };
+		0AA2D1602497AA1800E7C2EE /* India.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D15F2497AA1800E7C2EE /* India.json */; };
+		0AA2D1622497AEA800E7C2EE /* Nepal.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2D1612497AEA800E7C2EE /* Nepal.json */; };
+		0ACF582123E58DB300159B53 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF582023E58DB300159B53 /* Settings.swift */; };
+		0AD20B242497BBBA00E5B5DC /* South Africa.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B232497BBBA00E5B5DC /* South Africa.json */; };
+		0AD20B262497C01700E5B5DC /* Philippines.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B252497C01700E5B5DC /* Philippines.json */; };
+		0AD20B282497C12700E5B5DC /* Hungary.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B272497C12700E5B5DC /* Hungary.json */; };
+		0AD20B2A2497C33D00E5B5DC /* Ghana.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B292497C33D00E5B5DC /* Ghana.json */; };
+		0AD20B2C2497C43E00E5B5DC /* Austria.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B2B2497C43E00E5B5DC /* Austria.json */; };
+		0AD20B2E2497C5F700E5B5DC /* Croatia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B2D2497C5F700E5B5DC /* Croatia.json */; };
+		0AD20B302497C78500E5B5DC /* Sweden.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B2F2497C78500E5B5DC /* Sweden.json */; };
+		0AD20B322497C91700E5B5DC /* Malaysia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B312497C91700E5B5DC /* Malaysia.json */; };
+		0AD20B342497C9F200E5B5DC /* Ireland.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B332497C9F200E5B5DC /* Ireland.json */; };
+		0AD20B362497CEB500E5B5DC /* Uruguay.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B352497CEB500E5B5DC /* Uruguay.json */; };
+		0AD20B382497D09B00E5B5DC /* Bosnia and Herzegovina.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B372497D09B00E5B5DC /* Bosnia and Herzegovina.json */; };
+		0AD20B3A2497D21200E5B5DC /* Paraguay.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B392497D21200E5B5DC /* Paraguay.json */; };
+		0AD20B3C2497D43E00E5B5DC /* El Salvador.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B3B2497D43E00E5B5DC /* El Salvador.json */; };
+		0AD20B3F2497DDA100E5B5DC /* Danmark.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B3E2497DDA100E5B5DC /* Danmark.json */; };
+		0AD20B412497EE3300E5B5DC /* Honduras.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B402497EE3300E5B5DC /* Honduras.json */; };
+		0AD20B432498395D00E5B5DC /* New Zealand.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B422498395D00E5B5DC /* New Zealand.json */; };
+		0AD20B4524983B0900E5B5DC /* Norway.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B4424983B0900E5B5DC /* Norway.json */; };
+		0AD20B4724983F3200E5B5DC /* Puerto Rico.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B4624983F3200E5B5DC /* Puerto Rico.json */; };
+		0AD20B492498BF1600E5B5DC /* Czech Republic.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B482498BF1600E5B5DC /* Czech Republic.json */; };
+		0AD20B4B2498C09F00E5B5DC /* Costa Rica.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B4A2498C09F00E5B5DC /* Costa Rica.json */; };
+		0AD20B4D2498C1AA00E5B5DC /* Belgium.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B4C2498C1AA00E5B5DC /* Belgium.json */; };
+		0AD20B4F2498C28700E5B5DC /* Bolivia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B4E2498C28700E5B5DC /* Bolivia.json */; };
+		0AD20B512498C8A600E5B5DC /* Nigeria.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B502498C8A600E5B5DC /* Nigeria.json */; };
+		0AD20B532498C98800E5B5DC /* Israel.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B522498C98800E5B5DC /* Israel.json */; };
+		0AD20B552498CD6300E5B5DC /* Pakistan.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B542498CD6300E5B5DC /* Pakistan.json */; };
+		0AD20B572498CE6000E5B5DC /* Panama.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B562498CE6000E5B5DC /* Panama.json */; };
+		0AD20B592498CF5300E5B5DC /* Sri Lanka.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B582498CF5300E5B5DC /* Sri Lanka.json */; };
+		0AD20B5B2498D02100E5B5DC /* North Macedonia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B5A2498D02100E5B5DC /* North Macedonia.json */; };
+		0AD20B5D2498D0F600E5B5DC /* Thailand.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B5C2498D0F600E5B5DC /* Thailand.json */; };
+		0AD20B5F2498D66A00E5B5DC /* Albania.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B5E2498D66A00E5B5DC /* Albania.json */; };
+		0AD20B612498D72B00E5B5DC /* Kenya.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B602498D72B00E5B5DC /* Kenya.json */; };
+		0AD20B632498DCD300E5B5DC /* Slovenia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B622498DCD300E5B5DC /* Slovenia.json */; };
+		0AD20B652498DDC700E5B5DC /* Lebanon.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B642498DDC700E5B5DC /* Lebanon.json */; };
+		0AD20B672498E00300E5B5DC /* Senegal.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B662498E00300E5B5DC /* Senegal.json */; };
+		0AD20B692498E08A00E5B5DC /* Nicaragua.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B682498E08A00E5B5DC /* Nicaragua.json */; };
+		0AD20B6B2498E23D00E5B5DC /* Lithuania.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B6A2498E23D00E5B5DC /* Lithuania.json */; };
+		0AD20B6D2498E2F900E5B5DC /* Tanzania.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B6C2498E2F900E5B5DC /* Tanzania.json */; };
+		0AD20B6F2498E38700E5B5DC /* Slovakia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B6E2498E38700E5B5DC /* Slovakia.json */; };
+		0AD20B712498E41C00E5B5DC /* Uganda.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B702498E41C00E5B5DC /* Uganda.json */; };
+		0AD20B732498E67F00E5B5DC /* Morocco.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B722498E67F00E5B5DC /* Morocco.json */; };
+		0AD20B752498E7E300E5B5DC /* Estonia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B742498E7E300E5B5DC /* Estonia.json */; };
+		0AD20B772498E88600E5B5DC /* Egypt.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B762498E88600E5B5DC /* Egypt.json */; };
+		0AD20B792498E91E00E5B5DC /* Montenegro.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AD20B782498E91E00E5B5DC /* Montenegro.json */; };
+		2C5545BD1C1124DE00728469 /* SwiftRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5545BC1C1124DE00728469 /* SwiftRadioUITests.swift */; };
+		53113F39230C720900462C0E /* ShareImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53113F38230C720900462C0E /* ShareImageGenerator.swift */; };
+		5F22BA3C1F72AD5A00CB5911 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA1E1F72AD3700CB5911 /* SpringLabel.swift */; };
+		5F22BA3D1F72AD5A00CB5911 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA1F1F72AD3900CB5911 /* BlurView.swift */; };
+		5F22BA3E1F72AD5A00CB5911 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA201F72AD3B00CB5911 /* DesignableTabBarController.swift */; };
+		5F22BA3F1F72AD5A00CB5911 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA211F72AD3C00CB5911 /* LoadingView.swift */; };
+		5F22BA401F72AD5A00CB5911 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA231F72AD3E00CB5911 /* SpringImageView.swift */; };
+		5F22BA411F72AD5A00CB5911 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA251F72AD3F00CB5911 /* SpringTextField.swift */; };
+		5F22BA421F72AD5A00CB5911 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA261F72AD4000CB5911 /* SoundPlayer.swift */; };
+		5F22BA431F72AD5A00CB5911 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA271F72AD4200CB5911 /* SpringTextView.swift */; };
+		5F22BA441F72AD5A00CB5911 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA281F72AD4300CB5911 /* SpringButton.swift */; };
+		5F22BA451F72AD5A00CB5911 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA291F72AD4400CB5911 /* DesignableLabel.swift */; };
+		5F22BA461F72AD5A00CB5911 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA2A1F72AD4500CB5911 /* AsyncButton.swift */; };
+		5F22BA471F72AD5A00CB5911 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA2B1F72AD4600CB5911 /* DesignableTextField.swift */; };
+		5F22BA481F72AD5A00CB5911 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA2C1F72AD4900CB5911 /* DesignableButton.swift */; };
+		5F22BA491F72AD5A00CB5911 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA2D1F72AD4A00CB5911 /* AsyncImageView.swift */; };
+		5F22BA4A1F72AD5A00CB5911 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA2E1F72AD4B00CB5911 /* DesignableTextView.swift */; };
+		5F22BA4B1F72AD5A00CB5911 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA2F1F72AD4C00CB5911 /* KeyboardLayoutConstraint.swift */; };
+		5F22BA4C1F72AD5A00CB5911 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA301F72AD4E00CB5911 /* ImageLoader.swift */; };
+		5F22BA4D1F72AD5A00CB5911 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA311F72AD4E00CB5911 /* DesignableImageView.swift */; };
+		5F22BA4E1F72AD5A00CB5911 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA321F72AD5000CB5911 /* Misc.swift */; };
+		5F22BA4F1F72AD5A00CB5911 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA331F72AD5200CB5911 /* TransitionManager.swift */; };
+		5F22BA501F72AD5A00CB5911 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA341F72AD5300CB5911 /* Spring.swift */; };
+		5F22BA511F72AD5A00CB5911 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA351F72AD5400CB5911 /* TransitionZoom.swift */; };
+		5F22BA521F72AD5A00CB5911 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA371F72AD5600CB5911 /* UnwindSegue.swift */; };
+		5F22BA531F72AD5A00CB5911 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA381F72AD5700CB5911 /* SpringAnimation.swift */; };
+		5F22BA541F72AD5A00CB5911 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA391F72AD5700CB5911 /* SpringView.swift */; };
+		5F22BA551F72AD5A00CB5911 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA3A1F72AD5800CB5911 /* AutoTextView.swift */; };
+		5F22BA561F72AD5A00CB5911 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22BA3B1F72AD5900CB5911 /* DesignableView.swift */; };
+		5FDEE0221F72FF980064333C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDEE0211F72FF980064333C /* LaunchScreen.storyboard */; };
+		6258DCD822D93A3500166C65 /* LogoShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6258DCD722D93A3500166C65 /* LogoShareView.swift */; };
+		6258DCDA22D93A5400166C65 /* LogoShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6258DCD922D93A5400166C65 /* LogoShareView.xib */; };
+		81AD229B21646DEA002ADFDD /* FRadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AD229821646DEA002ADFDD /* FRadioPlayer.swift */; };
+		81AD229C21646DEA002ADFDD /* FRadioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AD229921646DEA002ADFDD /* FRadioAPI.swift */; };
+		81AD229D21646DEA002ADFDD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AD229A21646DEA002ADFDD /* Reachability.swift */; };
+		9409E11C1ABF6FEA00312E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9409E11B1ABF6FEA00312E2B /* AppDelegate.swift */; };
+		9409E1261ABF6FEA00312E2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9409E1251ABF6FEA00312E2B /* Images.xcassets */; };
+		9409E1401ABF78B000312E2B /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9409E13F1ABF78B000312E2B /* NowPlayingViewController.swift */; };
+		942A3F371AE43DF80011396E /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942A3F361AE43DF80011396E /* StationsViewController.swift */; };
+		94452E4F1AD6F24700BFE7A5 /* PopUpMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94452E4E1AD6F24700BFE7A5 /* PopUpMenuViewController.swift */; };
+		94452E551AD7086800BFE7A5 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94452E541AD7086800BFE7A5 /* AboutViewController.swift */; };
+		945DB3C21AD58E3A00495EBB /* United Kingdom.json in Resources */ = {isa = PBXBuildFile; fileRef = 945DB3C11AD58E3A00495EBB /* United Kingdom.json */; };
+		945DB3C51AD5A6E200495EBB /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945DB3C41AD5A6E200495EBB /* NothingFoundCell.xib */; };
+		949BBB401ACC9DEE005B7C26 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949BBB3F1ACC9DEE005B7C26 /* DataManager.swift */; };
+		949E5EB01ACB340200AB6280 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E5EAF1ACB340200AB6280 /* UIImageView+Download.swift */; };
+		94AC70AE1AD05C6200652982 /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC70AD1AD05C6200652982 /* RadioStation.swift */; };
+		94D1D0A51AD6D6230022CA11 /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D1D0A41AD6D6230022CA11 /* InfoDetailViewController.swift */; };
+		94D260911B45D20000DE671C /* SwiftRadio-Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D260901B45D20000DE671C /* SwiftRadio-Settings.swift */; };
+		94D260961B45E3FA00DE671C /* AnimationFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D260951B45E3FA00DE671C /* AnimationFrames.swift */; };
+		94D260981B45E8B800DE671C /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D260971B45E8B800DE671C /* Track.swift */; };
+		94D30EA71AD07A880024FE96 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D30EA61AD07A880024FE96 /* StationTableViewCell.swift */; };
+		94E9761C1B1A8F3200F52B1E /* UIImage+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9761B1B1A8F3200F52B1E /* UIImage+DropShadow.swift */; };
+		CAA8FDB52000614600050F77 /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA8FDB42000614600050F77 /* RadioPlayer.swift */; };
+		CF72ACE721F7155200461EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF72ACE621F714D000461EED /* Main.storyboard */; };
+		DA8AD99C93B02C7EFC03C7BE /* Pods_Radio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87599B5F320AE6D55E95E28 /* Pods_Radio.framework */; };
+		EB4E470F18399B7B84627A84 /* Pods_Radio_RadioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF12EBC757BE69FE6EA5C4B1 /* Pods_Radio_RadioUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C5545BF1C1124DE00728469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9409E10E1ABF6FE900312E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9409E1151ABF6FEA00312E2B;
+			remoteInfo = SwiftRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3C823223E065D700F4A594 /* TermsPrivacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsPrivacy.swift; sourceTree = "<group>"; };
+		0A3C823323E065D700F4A594 /* BuyScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyScreen.swift; sourceTree = "<group>"; };
+		0A3C823923E068AD00F4A594 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0A3C827423E1DCC400F4A594 /* Radio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Radio.xcdatamodel; sourceTree = "<group>"; };
+		0A3C827623E244DF00F4A594 /* FavStationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavStationsViewController.swift; sourceTree = "<group>"; };
+		0A3C827823E24A4B00F4A594 /* FavStationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavStationTableViewCell.swift; sourceTree = "<group>"; };
+		0AA2D1292496144C00E7C2EE /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		0AA2D12B24963A1400E7C2EE /* United States.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "United States.json"; sourceTree = "<group>"; };
+		0AA2D12D24963E2600E7C2EE /* Germany.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Germany.json; sourceTree = "<group>"; };
+		0AA2D12F2496409600E7C2EE /* France.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = France.json; sourceTree = "<group>"; };
+		0AA2D131249655E600E7C2EE /* Colombia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Colombia.json; sourceTree = "<group>"; };
+		0AA2D1332496B29A00E7C2EE /* Brasil.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Brasil.json; sourceTree = "<group>"; };
+		0AA2D1352496C11D00E7C2EE /* Spain.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Spain.json; sourceTree = "<group>"; };
+		0AA2D1372496CEF700E7C2EE /* Mexico.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Mexico.json; sourceTree = "<group>"; };
+		0AA2D1392496DC5000E7C2EE /* Argentina.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Argentina.json; sourceTree = "<group>"; };
+		0AA2D13B2496E3C700E7C2EE /* Italia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Italia.json; sourceTree = "<group>"; };
+		0AA2D13D2497769F00E7C2EE /* Canada.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Canada.json; sourceTree = "<group>"; };
+		0AA2D13F249777A100E7C2EE /* Netherlands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Netherlands.json; sourceTree = "<group>"; };
+		0AA2D14124977FF000E7C2EE /* Chile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Chile.json; sourceTree = "<group>"; };
+		0AA2D143249784D800E7C2EE /* Turkey.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Turkey.json; sourceTree = "<group>"; };
+		0AA2D145249788B400E7C2EE /* Indonesia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Indonesia.json; sourceTree = "<group>"; };
+		0AA2D14724978BFC00E7C2EE /* Ecuador.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Ecuador.json; sourceTree = "<group>"; };
+		0AA2D14924978E0000E7C2EE /* Australia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Australia.json; sourceTree = "<group>"; };
+		0AA2D14B24978EE500E7C2EE /* Romania.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Romania.json; sourceTree = "<group>"; };
+		0AA2D14D249791E600E7C2EE /* Venezuela.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Venezuela.json; sourceTree = "<group>"; };
+		0AA2D14F2497947D00E7C2EE /* Dominicana.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Dominicana.json; sourceTree = "<group>"; };
+		0AA2D151249796F700E7C2EE /* Poland.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Poland.json; sourceTree = "<group>"; };
+		0AA2D15324979AAB00E7C2EE /* Portugal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Portugal.json; sourceTree = "<group>"; };
+		0AA2D15524979FC200E7C2EE /* Peru.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Peru.json; sourceTree = "<group>"; };
+		0AA2D1572497A11900E7C2EE /* Switzerland.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Switzerland.json; sourceTree = "<group>"; };
+		0AA2D1592497A5DE00E7C2EE /* Haiti.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Haiti.json; sourceTree = "<group>"; };
+		0AA2D15B2497A71200E7C2EE /* Serbia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Serbia.json; sourceTree = "<group>"; };
+		0AA2D15D2497A89D00E7C2EE /* Guatemala.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Guatemala.json; sourceTree = "<group>"; };
+		0AA2D15F2497AA1800E7C2EE /* India.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = India.json; sourceTree = "<group>"; };
+		0AA2D1612497AEA800E7C2EE /* Nepal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Nepal.json; sourceTree = "<group>"; };
+		0ACF582023E58DB300159B53 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		0AD20B232497BBBA00E5B5DC /* South Africa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "South Africa.json"; sourceTree = "<group>"; };
+		0AD20B252497C01700E5B5DC /* Philippines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Philippines.json; sourceTree = "<group>"; };
+		0AD20B272497C12700E5B5DC /* Hungary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Hungary.json; sourceTree = "<group>"; };
+		0AD20B292497C33D00E5B5DC /* Ghana.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Ghana.json; sourceTree = "<group>"; };
+		0AD20B2B2497C43E00E5B5DC /* Austria.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Austria.json; sourceTree = "<group>"; };
+		0AD20B2D2497C5F700E5B5DC /* Croatia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Croatia.json; sourceTree = "<group>"; };
+		0AD20B2F2497C78500E5B5DC /* Sweden.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Sweden.json; sourceTree = "<group>"; };
+		0AD20B312497C91700E5B5DC /* Malaysia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Malaysia.json; sourceTree = "<group>"; };
+		0AD20B332497C9F200E5B5DC /* Ireland.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Ireland.json; sourceTree = "<group>"; };
+		0AD20B352497CEB500E5B5DC /* Uruguay.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Uruguay.json; sourceTree = "<group>"; };
+		0AD20B372497D09B00E5B5DC /* Bosnia and Herzegovina.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Bosnia and Herzegovina.json"; sourceTree = "<group>"; };
+		0AD20B392497D21200E5B5DC /* Paraguay.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Paraguay.json; sourceTree = "<group>"; };
+		0AD20B3B2497D43E00E5B5DC /* El Salvador.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "El Salvador.json"; sourceTree = "<group>"; };
+		0AD20B3D2497D52500E5B5DC /* Radio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Radio.entitlements; sourceTree = "<group>"; };
+		0AD20B3E2497DDA100E5B5DC /* Danmark.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Danmark.json; sourceTree = "<group>"; };
+		0AD20B402497EE3300E5B5DC /* Honduras.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Honduras.json; sourceTree = "<group>"; };
+		0AD20B422498395D00E5B5DC /* New Zealand.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "New Zealand.json"; sourceTree = "<group>"; };
+		0AD20B4424983B0900E5B5DC /* Norway.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Norway.json; sourceTree = "<group>"; };
+		0AD20B4624983F3200E5B5DC /* Puerto Rico.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Puerto Rico.json"; sourceTree = "<group>"; };
+		0AD20B482498BF1600E5B5DC /* Czech Republic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Czech Republic.json"; sourceTree = "<group>"; };
+		0AD20B4A2498C09F00E5B5DC /* Costa Rica.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Costa Rica.json"; sourceTree = "<group>"; };
+		0AD20B4C2498C1AA00E5B5DC /* Belgium.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Belgium.json; sourceTree = "<group>"; };
+		0AD20B4E2498C28700E5B5DC /* Bolivia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Bolivia.json; sourceTree = "<group>"; };
+		0AD20B502498C8A600E5B5DC /* Nigeria.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Nigeria.json; sourceTree = "<group>"; };
+		0AD20B522498C98800E5B5DC /* Israel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Israel.json; sourceTree = "<group>"; };
+		0AD20B542498CD6300E5B5DC /* Pakistan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Pakistan.json; sourceTree = "<group>"; };
+		0AD20B562498CE6000E5B5DC /* Panama.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Panama.json; sourceTree = "<group>"; };
+		0AD20B582498CF5300E5B5DC /* Sri Lanka.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Sri Lanka.json"; sourceTree = "<group>"; };
+		0AD20B5A2498D02100E5B5DC /* North Macedonia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "North Macedonia.json"; sourceTree = "<group>"; };
+		0AD20B5C2498D0F600E5B5DC /* Thailand.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Thailand.json; sourceTree = "<group>"; };
+		0AD20B5E2498D66A00E5B5DC /* Albania.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Albania.json; sourceTree = "<group>"; };
+		0AD20B602498D72B00E5B5DC /* Kenya.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Kenya.json; sourceTree = "<group>"; };
+		0AD20B622498DCD300E5B5DC /* Slovenia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Slovenia.json; sourceTree = "<group>"; };
+		0AD20B642498DDC700E5B5DC /* Lebanon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Lebanon.json; sourceTree = "<group>"; };
+		0AD20B662498E00300E5B5DC /* Senegal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Senegal.json; sourceTree = "<group>"; };
+		0AD20B682498E08A00E5B5DC /* Nicaragua.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Nicaragua.json; sourceTree = "<group>"; };
+		0AD20B6A2498E23D00E5B5DC /* Lithuania.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Lithuania.json; sourceTree = "<group>"; };
+		0AD20B6C2498E2F900E5B5DC /* Tanzania.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Tanzania.json; sourceTree = "<group>"; };
+		0AD20B6E2498E38700E5B5DC /* Slovakia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Slovakia.json; sourceTree = "<group>"; };
+		0AD20B702498E41C00E5B5DC /* Uganda.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Uganda.json; sourceTree = "<group>"; };
+		0AD20B722498E67F00E5B5DC /* Morocco.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Morocco.json; sourceTree = "<group>"; };
+		0AD20B742498E7E300E5B5DC /* Estonia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Estonia.json; sourceTree = "<group>"; };
+		0AD20B762498E88600E5B5DC /* Egypt.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Egypt.json; sourceTree = "<group>"; };
+		0AD20B782498E91E00E5B5DC /* Montenegro.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Montenegro.json; sourceTree = "<group>"; };
+		1A9CB55594F0C8DC55A2F2CD /* Pods-Radio-RadioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio-RadioUITests.debug.xcconfig"; path = "Target Support Files/Pods-Radio-RadioUITests/Pods-Radio-RadioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C5545BA1C1124DE00728469 /* RadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5545BC1C1124DE00728469 /* SwiftRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRadioUITests.swift; sourceTree = "<group>"; };
+		2C5545BE1C1124DE00728469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53113F38230C720900462C0E /* ShareImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareImageGenerator.swift; sourceTree = "<group>"; };
+		5580CDBA4A0F2A3BE246769C /* Pods-Radio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio.release.xcconfig"; path = "Target Support Files/Pods-Radio/Pods-Radio.release.xcconfig"; sourceTree = "<group>"; };
+		5F22BA1E1F72AD3700CB5911 /* SpringLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		5F22BA1F1F72AD3900CB5911 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		5F22BA201F72AD3B00CB5911 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		5F22BA211F72AD3C00CB5911 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		5F22BA221F72AD3C00CB5911 /* Spring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		5F22BA231F72AD3E00CB5911 /* SpringImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		5F22BA241F72AD3E00CB5911 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		5F22BA251F72AD3F00CB5911 /* SpringTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		5F22BA261F72AD4000CB5911 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		5F22BA271F72AD4200CB5911 /* SpringTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		5F22BA281F72AD4300CB5911 /* SpringButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		5F22BA291F72AD4400CB5911 /* DesignableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		5F22BA2A1F72AD4500CB5911 /* AsyncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		5F22BA2B1F72AD4600CB5911 /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		5F22BA2C1F72AD4900CB5911 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		5F22BA2D1F72AD4A00CB5911 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		5F22BA2E1F72AD4B00CB5911 /* DesignableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		5F22BA2F1F72AD4C00CB5911 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		5F22BA301F72AD4E00CB5911 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		5F22BA311F72AD4E00CB5911 /* DesignableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		5F22BA321F72AD5000CB5911 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		5F22BA331F72AD5200CB5911 /* TransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		5F22BA341F72AD5300CB5911 /* Spring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		5F22BA351F72AD5400CB5911 /* TransitionZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		5F22BA361F72AD5500CB5911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F22BA371F72AD5600CB5911 /* UnwindSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		5F22BA381F72AD5700CB5911 /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		5F22BA391F72AD5700CB5911 /* SpringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		5F22BA3A1F72AD5800CB5911 /* AutoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		5F22BA3B1F72AD5900CB5911 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		5FDEE0211F72FF980064333C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6258DCD722D93A3500166C65 /* LogoShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoShareView.swift; sourceTree = "<group>"; };
+		6258DCD922D93A5400166C65 /* LogoShareView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoShareView.xib; sourceTree = "<group>"; };
+		6C968FD0538CE9B51545D731 /* Pods-myTune Radio UK-myTune Radio UKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myTune Radio UK-myTune Radio UKUITests.debug.xcconfig"; path = "Target Support Files/Pods-myTune Radio UK-myTune Radio UKUITests/Pods-myTune Radio UK-myTune Radio UKUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E75F6BEA817A9F7454D9980 /* Pods-myTune Radio UK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myTune Radio UK.release.xcconfig"; path = "Target Support Files/Pods-myTune Radio UK/Pods-myTune Radio UK.release.xcconfig"; sourceTree = "<group>"; };
+		741C285E7C5292D299DFD8F6 /* Pods-myTune Radio UK-myTune Radio UKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myTune Radio UK-myTune Radio UKUITests.release.xcconfig"; path = "Target Support Files/Pods-myTune Radio UK-myTune Radio UKUITests/Pods-myTune Radio UK-myTune Radio UKUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81AD229821646DEA002ADFDD /* FRadioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRadioPlayer.swift; sourceTree = "<group>"; };
+		81AD229921646DEA002ADFDD /* FRadioAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRadioAPI.swift; sourceTree = "<group>"; };
+		81AD229A21646DEA002ADFDD /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9409E1161ABF6FEA00312E2B /* Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9409E11A1ABF6FEA00312E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9409E11B1ABF6FEA00312E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9409E1251ABF6FEA00312E2B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9409E13F1ABF78B000312E2B /* NowPlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		942A3F361AE43DF80011396E /* StationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
+		94452E4E1AD6F24700BFE7A5 /* PopUpMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpMenuViewController.swift; sourceTree = "<group>"; };
+		94452E541AD7086800BFE7A5 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		945DB3C11AD58E3A00495EBB /* United Kingdom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "United Kingdom.json"; sourceTree = "<group>"; };
+		945DB3C41AD5A6E200495EBB /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		949BBB3F1ACC9DEE005B7C26 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		949E5EAF1ACB340200AB6280 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
+		94AC70AD1AD05C6200652982 /* RadioStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
+		94D1D0A41AD6D6230022CA11 /* InfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
+		94D260901B45D20000DE671C /* SwiftRadio-Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftRadio-Settings.swift"; sourceTree = "<group>"; };
+		94D260951B45E3FA00DE671C /* AnimationFrames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFrames.swift; sourceTree = "<group>"; };
+		94D260971B45E8B800DE671C /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		94D30EA61AD07A880024FE96 /* StationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		94E9761B1B1A8F3200F52B1E /* UIImage+DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+DropShadow.swift"; sourceTree = "<group>"; };
+		A87599B5F320AE6D55E95E28 /* Pods_Radio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA8FDB42000614600050F77 /* RadioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
+		CF12EBC757BE69FE6EA5C4B1 /* Pods_Radio_RadioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio_RadioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF539F576014B26707DC920D /* Pods-Radio-RadioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio-RadioUITests.release.xcconfig"; path = "Target Support Files/Pods-Radio-RadioUITests/Pods-Radio-RadioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF6FCD7D1E82FE10274BB79B /* Pods-Radio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio.debug.xcconfig"; path = "Target Support Files/Pods-Radio/Pods-Radio.debug.xcconfig"; sourceTree = "<group>"; };
+		CF72ACE621F714D000461EED /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E8BAA3E3862940A221A2F5D8 /* Pods-myTune Radio UK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myTune Radio UK.debug.xcconfig"; path = "Target Support Files/Pods-myTune Radio UK/Pods-myTune Radio UK.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C5545B71C1124DE00728469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4E470F18399B7B84627A84 /* Pods_Radio_RadioUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9409E1131ABF6FEA00312E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3C823A23E068AD00F4A594 /* StoreKit.framework in Frameworks */,
+				DA8AD99C93B02C7EFC03C7BE /* Pods_Radio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3C823823E068AD00F4A594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A3C823923E068AD00F4A594 /* StoreKit.framework */,
+				A87599B5F320AE6D55E95E28 /* Pods_Radio.framework */,
+				CF12EBC757BE69FE6EA5C4B1 /* Pods_Radio_RadioUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18B075984A02F223CA91A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8BAA3E3862940A221A2F5D8 /* Pods-myTune Radio UK.debug.xcconfig */,
+				6E75F6BEA817A9F7454D9980 /* Pods-myTune Radio UK.release.xcconfig */,
+				6C968FD0538CE9B51545D731 /* Pods-myTune Radio UK-myTune Radio UKUITests.debug.xcconfig */,
+				741C285E7C5292D299DFD8F6 /* Pods-myTune Radio UK-myTune Radio UKUITests.release.xcconfig */,
+				CF6FCD7D1E82FE10274BB79B /* Pods-Radio.debug.xcconfig */,
+				5580CDBA4A0F2A3BE246769C /* Pods-Radio.release.xcconfig */,
+				1A9CB55594F0C8DC55A2F2CD /* Pods-Radio-RadioUITests.debug.xcconfig */,
+				CF539F576014B26707DC920D /* Pods-Radio-RadioUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2C5545BB1C1124DE00728469 /* SwiftRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5545BC1C1124DE00728469 /* SwiftRadioUITests.swift */,
+				2C5545BE1C1124DE00728469 /* Info.plist */,
+			);
+			path = SwiftRadioUITests;
+			sourceTree = "<group>";
+		};
+		5F22B9DE1F72A8D800CB5911 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CAA7C15A1FD77F3A003CABDF /* FRadioPlayer */,
+				5F22BA1D1F72ACF100CB5911 /* Spring */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		5F22BA1D1F72ACF100CB5911 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				5F22BA2A1F72AD4500CB5911 /* AsyncButton.swift */,
+				5F22BA2D1F72AD4A00CB5911 /* AsyncImageView.swift */,
+				5F22BA3A1F72AD5800CB5911 /* AutoTextView.swift */,
+				5F22BA1F1F72AD3900CB5911 /* BlurView.swift */,
+				5F22BA2C1F72AD4900CB5911 /* DesignableButton.swift */,
+				5F22BA311F72AD4E00CB5911 /* DesignableImageView.swift */,
+				5F22BA291F72AD4400CB5911 /* DesignableLabel.swift */,
+				5F22BA201F72AD3B00CB5911 /* DesignableTabBarController.swift */,
+				5F22BA2B1F72AD4600CB5911 /* DesignableTextField.swift */,
+				5F22BA2E1F72AD4B00CB5911 /* DesignableTextView.swift */,
+				5F22BA3B1F72AD5900CB5911 /* DesignableView.swift */,
+				5F22BA301F72AD4E00CB5911 /* ImageLoader.swift */,
+				5F22BA361F72AD5500CB5911 /* Info.plist */,
+				5F22BA2F1F72AD4C00CB5911 /* KeyboardLayoutConstraint.swift */,
+				5F22BA211F72AD3C00CB5911 /* LoadingView.swift */,
+				5F22BA241F72AD3E00CB5911 /* LoadingView.xib */,
+				5F22BA321F72AD5000CB5911 /* Misc.swift */,
+				5F22BA261F72AD4000CB5911 /* SoundPlayer.swift */,
+				5F22BA221F72AD3C00CB5911 /* Spring.h */,
+				5F22BA341F72AD5300CB5911 /* Spring.swift */,
+				5F22BA381F72AD5700CB5911 /* SpringAnimation.swift */,
+				5F22BA281F72AD4300CB5911 /* SpringButton.swift */,
+				5F22BA231F72AD3E00CB5911 /* SpringImageView.swift */,
+				5F22BA1E1F72AD3700CB5911 /* SpringLabel.swift */,
+				5F22BA251F72AD3F00CB5911 /* SpringTextField.swift */,
+				5F22BA271F72AD4200CB5911 /* SpringTextView.swift */,
+				5F22BA391F72AD5700CB5911 /* SpringView.swift */,
+				5F22BA331F72AD5200CB5911 /* TransitionManager.swift */,
+				5F22BA351F72AD5400CB5911 /* TransitionZoom.swift */,
+				5F22BA371F72AD5600CB5911 /* UnwindSegue.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		9409E10D1ABF6FE900312E2B = {
+			isa = PBXGroup;
+			children = (
+				9409E1181ABF6FEA00312E2B /* Radio */,
+				2C5545BB1C1124DE00728469 /* SwiftRadioUITests */,
+				9409E1171ABF6FEA00312E2B /* Products */,
+				0A3C823823E068AD00F4A594 /* Frameworks */,
+				18B075984A02F223CA91A506 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9409E1171ABF6FEA00312E2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9409E1161ABF6FEA00312E2B /* Radio.app */,
+				2C5545BA1C1124DE00728469 /* RadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9409E1181ABF6FEA00312E2B /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				0AD20B3D2497D52500E5B5DC /* Radio.entitlements */,
+				0A3C827323E1DCC400F4A594 /* Radio.xcdatamodeld */,
+				94D2608F1B45D11800DE671C /* Cells */,
+				94AC70AF1AD05C7400652982 /* Networking */,
+				94823F861B5576F4004EC711 /* Data */,
+				94E976191B1A8BFB00F52B1E /* Model */,
+				94D2608E1B45D0F800DE671C /* ViewControllers */,
+				9409E11B1ABF6FEA00312E2B /* AppDelegate.swift */,
+				CAA8FDB42000614600050F77 /* RadioPlayer.swift */,
+				94D260901B45D20000DE671C /* SwiftRadio-Settings.swift */,
+				CF72ACE621F714D000461EED /* Main.storyboard */,
+				0ACF582023E58DB300159B53 /* Settings.swift */,
+				0A3C823323E065D700F4A594 /* BuyScreen.swift */,
+				0A3C823223E065D700F4A594 /* TermsPrivacy.swift */,
+				9409E1251ABF6FEA00312E2B /* Images.xcassets */,
+				9409E1191ABF6FEA00312E2B /* Supporting Files */,
+				94D260941B45E0BA00DE671C /* UI Helpers */,
+				5F22B9DE1F72A8D800CB5911 /* Libraries */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		9409E1191ABF6FEA00312E2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9409E11A1ABF6FEA00312E2B /* Info.plist */,
+				5FDEE0211F72FF980064333C /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94823F861B5576F4004EC711 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				945DB3C11AD58E3A00495EBB /* United Kingdom.json */,
+				0AA2D12B24963A1400E7C2EE /* United States.json */,
+				0AA2D12D24963E2600E7C2EE /* Germany.json */,
+				0AA2D12F2496409600E7C2EE /* France.json */,
+				0AA2D131249655E600E7C2EE /* Colombia.json */,
+				0AA2D1332496B29A00E7C2EE /* Brasil.json */,
+				0AA2D1352496C11D00E7C2EE /* Spain.json */,
+				0AA2D1372496CEF700E7C2EE /* Mexico.json */,
+				0AA2D1392496DC5000E7C2EE /* Argentina.json */,
+				0AA2D13B2496E3C700E7C2EE /* Italia.json */,
+				0AA2D13D2497769F00E7C2EE /* Canada.json */,
+				0AA2D13F249777A100E7C2EE /* Netherlands.json */,
+				0AA2D14124977FF000E7C2EE /* Chile.json */,
+				0AA2D143249784D800E7C2EE /* Turkey.json */,
+				0AA2D145249788B400E7C2EE /* Indonesia.json */,
+				0AA2D14724978BFC00E7C2EE /* Ecuador.json */,
+				0AA2D14924978E0000E7C2EE /* Australia.json */,
+				0AA2D14B24978EE500E7C2EE /* Romania.json */,
+				0AA2D14D249791E600E7C2EE /* Venezuela.json */,
+				0AA2D14F2497947D00E7C2EE /* Dominicana.json */,
+				0AA2D151249796F700E7C2EE /* Poland.json */,
+				0AA2D15324979AAB00E7C2EE /* Portugal.json */,
+				0AA2D15524979FC200E7C2EE /* Peru.json */,
+				0AA2D1572497A11900E7C2EE /* Switzerland.json */,
+				0AA2D1592497A5DE00E7C2EE /* Haiti.json */,
+				0AA2D15B2497A71200E7C2EE /* Serbia.json */,
+				0AA2D15D2497A89D00E7C2EE /* Guatemala.json */,
+				0AA2D15F2497AA1800E7C2EE /* India.json */,
+				0AA2D1612497AEA800E7C2EE /* Nepal.json */,
+				0AD20B232497BBBA00E5B5DC /* South Africa.json */,
+				0AD20B252497C01700E5B5DC /* Philippines.json */,
+				0AD20B272497C12700E5B5DC /* Hungary.json */,
+				0AD20B292497C33D00E5B5DC /* Ghana.json */,
+				0AD20B2B2497C43E00E5B5DC /* Austria.json */,
+				0AD20B2D2497C5F700E5B5DC /* Croatia.json */,
+				0AD20B2F2497C78500E5B5DC /* Sweden.json */,
+				0AD20B312497C91700E5B5DC /* Malaysia.json */,
+				0AD20B332497C9F200E5B5DC /* Ireland.json */,
+				0AD20B352497CEB500E5B5DC /* Uruguay.json */,
+				0AD20B372497D09B00E5B5DC /* Bosnia and Herzegovina.json */,
+				0AD20B392497D21200E5B5DC /* Paraguay.json */,
+				0AD20B3B2497D43E00E5B5DC /* El Salvador.json */,
+				0AD20B3E2497DDA100E5B5DC /* Danmark.json */,
+				0AD20B402497EE3300E5B5DC /* Honduras.json */,
+				0AD20B422498395D00E5B5DC /* New Zealand.json */,
+				0AD20B4424983B0900E5B5DC /* Norway.json */,
+				0AD20B4624983F3200E5B5DC /* Puerto Rico.json */,
+				0AD20B482498BF1600E5B5DC /* Czech Republic.json */,
+				0AD20B4A2498C09F00E5B5DC /* Costa Rica.json */,
+				0AD20B4C2498C1AA00E5B5DC /* Belgium.json */,
+				0AD20B4E2498C28700E5B5DC /* Bolivia.json */,
+				0AD20B502498C8A600E5B5DC /* Nigeria.json */,
+				0AD20B522498C98800E5B5DC /* Israel.json */,
+				0AD20B542498CD6300E5B5DC /* Pakistan.json */,
+				0AD20B562498CE6000E5B5DC /* Panama.json */,
+				0AD20B582498CF5300E5B5DC /* Sri Lanka.json */,
+				0AD20B5A2498D02100E5B5DC /* North Macedonia.json */,
+				0AD20B5C2498D0F600E5B5DC /* Thailand.json */,
+				0AD20B5E2498D66A00E5B5DC /* Albania.json */,
+				0AD20B602498D72B00E5B5DC /* Kenya.json */,
+				0AD20B622498DCD300E5B5DC /* Slovenia.json */,
+				0AD20B642498DDC700E5B5DC /* Lebanon.json */,
+				0AD20B662498E00300E5B5DC /* Senegal.json */,
+				0AD20B682498E08A00E5B5DC /* Nicaragua.json */,
+				0AD20B6A2498E23D00E5B5DC /* Lithuania.json */,
+				0AD20B6C2498E2F900E5B5DC /* Tanzania.json */,
+				0AD20B6E2498E38700E5B5DC /* Slovakia.json */,
+				0AD20B702498E41C00E5B5DC /* Uganda.json */,
+				0AD20B722498E67F00E5B5DC /* Morocco.json */,
+				0AD20B742498E7E300E5B5DC /* Estonia.json */,
+				0AD20B762498E88600E5B5DC /* Egypt.json */,
+				0AD20B782498E91E00E5B5DC /* Montenegro.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		94AC70AF1AD05C7400652982 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				949BBB3F1ACC9DEE005B7C26 /* DataManager.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		94D2608E1B45D0F800DE671C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0AA2D1292496144C00E7C2EE /* CountriesViewController.swift */,
+				942A3F361AE43DF80011396E /* StationsViewController.swift */,
+				0A3C827623E244DF00F4A594 /* FavStationsViewController.swift */,
+				9409E13F1ABF78B000312E2B /* NowPlayingViewController.swift */,
+				94452E4E1AD6F24700BFE7A5 /* PopUpMenuViewController.swift */,
+				94D1D0A41AD6D6230022CA11 /* InfoDetailViewController.swift */,
+				94452E541AD7086800BFE7A5 /* AboutViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		94D2608F1B45D11800DE671C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				945DB3C41AD5A6E200495EBB /* NothingFoundCell.xib */,
+				94D30EA61AD07A880024FE96 /* StationTableViewCell.swift */,
+				0A3C827823E24A4B00F4A594 /* FavStationTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		94D260941B45E0BA00DE671C /* UI Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				94D260951B45E3FA00DE671C /* AnimationFrames.swift */,
+				949E5EAF1ACB340200AB6280 /* UIImageView+Download.swift */,
+				94E9761B1B1A8F3200F52B1E /* UIImage+DropShadow.swift */,
+				53113F38230C720900462C0E /* ShareImageGenerator.swift */,
+				6258DCD722D93A3500166C65 /* LogoShareView.swift */,
+				6258DCD922D93A5400166C65 /* LogoShareView.xib */,
+			);
+			name = "UI Helpers";
+			sourceTree = "<group>";
+		};
+		94E976191B1A8BFB00F52B1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94AC70AD1AD05C6200652982 /* RadioStation.swift */,
+				94D260971B45E8B800DE671C /* Track.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CAA7C15A1FD77F3A003CABDF /* FRadioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				81AD229921646DEA002ADFDD /* FRadioAPI.swift */,
+				81AD229821646DEA002ADFDD /* FRadioPlayer.swift */,
+				81AD229A21646DEA002ADFDD /* Reachability.swift */,
+			);
+			path = FRadioPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C5545B91C1124DE00728469 /* RadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5545C31C1124DE00728469 /* Build configuration list for PBXNativeTarget "RadioUITests" */;
+			buildPhases = (
+				274769D35B2FCF75075F56AD /* [CP] Check Pods Manifest.lock */,
+				2C5545B61C1124DE00728469 /* Sources */,
+				2C5545B71C1124DE00728469 /* Frameworks */,
+				2C5545B81C1124DE00728469 /* Resources */,
+				458F3109A17BAE60B17CF636 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5545C01C1124DE00728469 /* PBXTargetDependency */,
+			);
+			name = RadioUITests;
+			productName = SwiftRadioUITests;
+			productReference = 2C5545BA1C1124DE00728469 /* RadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9409E1151ABF6FEA00312E2B /* Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9409E1381ABF6FEA00312E2B /* Build configuration list for PBXNativeTarget "Radio" */;
+			buildPhases = (
+				1806F58D0DAE29BCBB4BD00C /* [CP] Check Pods Manifest.lock */,
+				9409E1121ABF6FEA00312E2B /* Sources */,
+				9409E1131ABF6FEA00312E2B /* Frameworks */,
+				9409E1141ABF6FEA00312E2B /* Resources */,
+				42E50932D15055152CB53667 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Radio;
+			productName = RadioPro;
+			productReference = 9409E1161ABF6FEA00312E2B /* Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9409E10E1ABF6FE900312E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = matthewfecher.com;
+				TargetAttributes = {
+					2C5545B91C1124DE00728469 = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 1020;
+						TestTargetID = 9409E1151ABF6FEA00312E2B;
+					};
+					9409E1151ABF6FEA00312E2B = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = KFB53L7N2X;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9409E1111ABF6FE900312E2B /* Build configuration list for PBXProject "Radio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9409E10D1ABF6FE900312E2B;
+			productRefGroup = 9409E1171ABF6FEA00312E2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9409E1151ABF6FEA00312E2B /* Radio */,
+				2C5545B91C1124DE00728469 /* RadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C5545B81C1124DE00728469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9409E1141ABF6FEA00312E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA2D13A2496DC5000E7C2EE /* Argentina.json in Resources */,
+				0AD20B6B2498E23D00E5B5DC /* Lithuania.json in Resources */,
+				0AD20B532498C98800E5B5DC /* Israel.json in Resources */,
+				0AD20B432498395D00E5B5DC /* New Zealand.json in Resources */,
+				0AA2D1382496CEF700E7C2EE /* Mexico.json in Resources */,
+				0AD20B3F2497DDA100E5B5DC /* Danmark.json in Resources */,
+				0AA2D15424979AAB00E7C2EE /* Portugal.json in Resources */,
+				0AD20B492498BF1600E5B5DC /* Czech Republic.json in Resources */,
+				0AD20B732498E67F00E5B5DC /* Morocco.json in Resources */,
+				0AA2D1342496B29A00E7C2EE /* Brasil.json in Resources */,
+				0AD20B3C2497D43E00E5B5DC /* El Salvador.json in Resources */,
+				0AA2D14224977FF000E7C2EE /* Chile.json in Resources */,
+				0AA2D14A24978E0000E7C2EE /* Australia.json in Resources */,
+				0AD20B4D2498C1AA00E5B5DC /* Belgium.json in Resources */,
+				0AD20B712498E41C00E5B5DC /* Uganda.json in Resources */,
+				0AD20B5B2498D02100E5B5DC /* North Macedonia.json in Resources */,
+				0AA2D1582497A11900E7C2EE /* Switzerland.json in Resources */,
+				0AA2D15E2497A89D00E7C2EE /* Guatemala.json in Resources */,
+				0AA2D144249784D800E7C2EE /* Turkey.json in Resources */,
+				945DB3C21AD58E3A00495EBB /* United Kingdom.json in Resources */,
+				0AD20B752498E7E300E5B5DC /* Estonia.json in Resources */,
+				0AD20B322497C91700E5B5DC /* Malaysia.json in Resources */,
+				0AD20B592498CF5300E5B5DC /* Sri Lanka.json in Resources */,
+				945DB3C51AD5A6E200495EBB /* NothingFoundCell.xib in Resources */,
+				0AA2D140249777A100E7C2EE /* Netherlands.json in Resources */,
+				0AD20B4724983F3200E5B5DC /* Puerto Rico.json in Resources */,
+				0AA2D1622497AEA800E7C2EE /* Nepal.json in Resources */,
+				0AD20B512498C8A600E5B5DC /* Nigeria.json in Resources */,
+				0AD20B342497C9F200E5B5DC /* Ireland.json in Resources */,
+				0AD20B412497EE3300E5B5DC /* Honduras.json in Resources */,
+				0AD20B6D2498E2F900E5B5DC /* Tanzania.json in Resources */,
+				0AA2D15A2497A5DE00E7C2EE /* Haiti.json in Resources */,
+				0AA2D13C2496E3C700E7C2EE /* Italia.json in Resources */,
+				0AD20B5F2498D66A00E5B5DC /* Albania.json in Resources */,
+				0AD20B3A2497D21200E5B5DC /* Paraguay.json in Resources */,
+				0AA2D12E24963E2600E7C2EE /* Germany.json in Resources */,
+				0AA2D15C2497A71200E7C2EE /* Serbia.json in Resources */,
+				0AA2D152249796F700E7C2EE /* Poland.json in Resources */,
+				0AD20B552498CD6300E5B5DC /* Pakistan.json in Resources */,
+				0AA2D12C24963A1400E7C2EE /* United States.json in Resources */,
+				0AD20B382497D09B00E5B5DC /* Bosnia and Herzegovina.json in Resources */,
+				0AD20B4524983B0900E5B5DC /* Norway.json in Resources */,
+				0AA2D1302496409600E7C2EE /* France.json in Resources */,
+				0AA2D14E249791E600E7C2EE /* Venezuela.json in Resources */,
+				0AD20B612498D72B00E5B5DC /* Kenya.json in Resources */,
+				0AD20B262497C01700E5B5DC /* Philippines.json in Resources */,
+				0AA2D146249788B400E7C2EE /* Indonesia.json in Resources */,
+				6258DCDA22D93A5400166C65 /* LogoShareView.xib in Resources */,
+				0AD20B792498E91E00E5B5DC /* Montenegro.json in Resources */,
+				0AD20B362497CEB500E5B5DC /* Uruguay.json in Resources */,
+				0AA2D132249655E600E7C2EE /* Colombia.json in Resources */,
+				0AD20B652498DDC700E5B5DC /* Lebanon.json in Resources */,
+				0AD20B772498E88600E5B5DC /* Egypt.json in Resources */,
+				0AD20B572498CE6000E5B5DC /* Panama.json in Resources */,
+				0AD20B302497C78500E5B5DC /* Sweden.json in Resources */,
+				0AA2D13E2497769F00E7C2EE /* Canada.json in Resources */,
+				0AD20B2C2497C43E00E5B5DC /* Austria.json in Resources */,
+				0AD20B692498E08A00E5B5DC /* Nicaragua.json in Resources */,
+				0AA2D1502497947D00E7C2EE /* Dominicana.json in Resources */,
+				0AD20B672498E00300E5B5DC /* Senegal.json in Resources */,
+				0AD20B6F2498E38700E5B5DC /* Slovakia.json in Resources */,
+				0AD20B4F2498C28700E5B5DC /* Bolivia.json in Resources */,
+				0AA2D1362496C11D00E7C2EE /* Spain.json in Resources */,
+				CF72ACE721F7155200461EED /* Main.storyboard in Resources */,
+				0AA2D14C24978EE500E7C2EE /* Romania.json in Resources */,
+				0AA2D1602497AA1800E7C2EE /* India.json in Resources */,
+				0AD20B2A2497C33D00E5B5DC /* Ghana.json in Resources */,
+				5FDEE0221F72FF980064333C /* LaunchScreen.storyboard in Resources */,
+				0AD20B5D2498D0F600E5B5DC /* Thailand.json in Resources */,
+				0AD20B632498DCD300E5B5DC /* Slovenia.json in Resources */,
+				0AA2D15624979FC200E7C2EE /* Peru.json in Resources */,
+				0AD20B242497BBBA00E5B5DC /* South Africa.json in Resources */,
+				9409E1261ABF6FEA00312E2B /* Images.xcassets in Resources */,
+				0AD20B4B2498C09F00E5B5DC /* Costa Rica.json in Resources */,
+				0AA2D14824978BFC00E7C2EE /* Ecuador.json in Resources */,
+				0AD20B282497C12700E5B5DC /* Hungary.json in Resources */,
+				0AD20B2E2497C5F700E5B5DC /* Croatia.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1806F58D0DAE29BCBB4BD00C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Radio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		274769D35B2FCF75075F56AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Radio-RadioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42E50932D15055152CB53667 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Radio/Pods-Radio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Radio/Pods-Radio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		458F3109A17BAE60B17CF636 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Radio-RadioUITests/Pods-Radio-RadioUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Radio-RadioUITests/Pods-Radio-RadioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C5545B61C1124DE00728469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5545BD1C1124DE00728469 /* SwiftRadioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9409E1121ABF6FEA00312E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F22BA3E1F72AD5A00CB5911 /* DesignableTabBarController.swift in Sources */,
+				949E5EB01ACB340200AB6280 /* UIImageView+Download.swift in Sources */,
+				5F22BA401F72AD5A00CB5911 /* SpringImageView.swift in Sources */,
+				5F22BA511F72AD5A00CB5911 /* TransitionZoom.swift in Sources */,
+				5F22BA471F72AD5A00CB5911 /* DesignableTextField.swift in Sources */,
+				0AA2D12A2496144C00E7C2EE /* CountriesViewController.swift in Sources */,
+				5F22BA4C1F72AD5A00CB5911 /* ImageLoader.swift in Sources */,
+				5F22BA451F72AD5A00CB5911 /* DesignableLabel.swift in Sources */,
+				94D260911B45D20000DE671C /* SwiftRadio-Settings.swift in Sources */,
+				94D30EA71AD07A880024FE96 /* StationTableViewCell.swift in Sources */,
+				5F22BA3C1F72AD5A00CB5911 /* SpringLabel.swift in Sources */,
+				5F22BA3D1F72AD5A00CB5911 /* BlurView.swift in Sources */,
+				0A3C823523E065D700F4A594 /* BuyScreen.swift in Sources */,
+				0A3C827523E1DCC400F4A594 /* Radio.xcdatamodeld in Sources */,
+				0A3C827923E24A4B00F4A594 /* FavStationTableViewCell.swift in Sources */,
+				53113F39230C720900462C0E /* ShareImageGenerator.swift in Sources */,
+				5F22BA411F72AD5A00CB5911 /* SpringTextField.swift in Sources */,
+				9409E1401ABF78B000312E2B /* NowPlayingViewController.swift in Sources */,
+				94D1D0A51AD6D6230022CA11 /* InfoDetailViewController.swift in Sources */,
+				5F22BA4B1F72AD5A00CB5911 /* KeyboardLayoutConstraint.swift in Sources */,
+				5F22BA421F72AD5A00CB5911 /* SoundPlayer.swift in Sources */,
+				6258DCD822D93A3500166C65 /* LogoShareView.swift in Sources */,
+				5F22BA4A1F72AD5A00CB5911 /* DesignableTextView.swift in Sources */,
+				949BBB401ACC9DEE005B7C26 /* DataManager.swift in Sources */,
+				0ACF582123E58DB300159B53 /* Settings.swift in Sources */,
+				5F22BA4E1F72AD5A00CB5911 /* Misc.swift in Sources */,
+				5F22BA441F72AD5A00CB5911 /* SpringButton.swift in Sources */,
+				0A3C823423E065D700F4A594 /* TermsPrivacy.swift in Sources */,
+				5F22BA561F72AD5A00CB5911 /* DesignableView.swift in Sources */,
+				5F22BA521F72AD5A00CB5911 /* UnwindSegue.swift in Sources */,
+				94E9761C1B1A8F3200F52B1E /* UIImage+DropShadow.swift in Sources */,
+				81AD229D21646DEA002ADFDD /* Reachability.swift in Sources */,
+				94452E551AD7086800BFE7A5 /* AboutViewController.swift in Sources */,
+				5F22BA551F72AD5A00CB5911 /* AutoTextView.swift in Sources */,
+				94D260981B45E8B800DE671C /* Track.swift in Sources */,
+				5F22BA3F1F72AD5A00CB5911 /* LoadingView.swift in Sources */,
+				CAA8FDB52000614600050F77 /* RadioPlayer.swift in Sources */,
+				5F22BA4F1F72AD5A00CB5911 /* TransitionManager.swift in Sources */,
+				5F22BA531F72AD5A00CB5911 /* SpringAnimation.swift in Sources */,
+				94452E4F1AD6F24700BFE7A5 /* PopUpMenuViewController.swift in Sources */,
+				5F22BA431F72AD5A00CB5911 /* SpringTextView.swift in Sources */,
+				9409E11C1ABF6FEA00312E2B /* AppDelegate.swift in Sources */,
+				5F22BA4D1F72AD5A00CB5911 /* DesignableImageView.swift in Sources */,
+				5F22BA491F72AD5A00CB5911 /* AsyncImageView.swift in Sources */,
+				5F22BA541F72AD5A00CB5911 /* SpringView.swift in Sources */,
+				94D260961B45E3FA00DE671C /* AnimationFrames.swift in Sources */,
+				5F22BA461F72AD5A00CB5911 /* AsyncButton.swift in Sources */,
+				942A3F371AE43DF80011396E /* StationsViewController.swift in Sources */,
+				81AD229B21646DEA002ADFDD /* FRadioPlayer.swift in Sources */,
+				5F22BA501F72AD5A00CB5911 /* Spring.swift in Sources */,
+				81AD229C21646DEA002ADFDD /* FRadioAPI.swift in Sources */,
+				94AC70AE1AD05C6200652982 /* RadioStation.swift in Sources */,
+				5F22BA481F72AD5A00CB5911 /* DesignableButton.swift in Sources */,
+				0A3C827723E244DF00F4A594 /* FavStationsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C5545C01C1124DE00728469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9409E1151ABF6FEA00312E2B /* Radio */;
+			targetProxy = 2C5545BF1C1124DE00728469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C5545C11C1124DE00728469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A9CB55594F0C8DC55A2F2CD /* Pods-Radio-RadioUITests.debug.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SwiftRadioUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.SwiftRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftRadio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2C5545C21C1124DE00728469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF539F576014B26707DC920D /* Pods-Radio-RadioUITests.release.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SwiftRadioUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.SwiftRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftRadio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		9409E1361ABF6FEA00312E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9409E1371ABF6FEA00312E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9409E1391ABF6FEA00312E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6FCD7D1E82FE10274BB79B /* Pods-Radio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Radio/Radio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 5;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KFB53L7N2X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftRadio",
+				);
+				INFOPLIST_FILE = Radio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veleskevich.Radio;
+				PRODUCT_NAME = Radio;
+				PROVISIONING_PROFILE = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9409E13A1ABF6FEA00312E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5580CDBA4A0F2A3BE246769C /* Pods-Radio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Radio/Radio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 5;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KFB53L7N2X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftRadio",
+				);
+				INFOPLIST_FILE = Radio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veleskevich.Radio;
+				PRODUCT_NAME = Radio;
+				PROVISIONING_PROFILE = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C5545C31C1124DE00728469 /* Build configuration list for PBXNativeTarget "RadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5545C11C1124DE00728469 /* Debug */,
+				2C5545C21C1124DE00728469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9409E1111ABF6FE900312E2B /* Build configuration list for PBXProject "Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9409E1361ABF6FEA00312E2B /* Debug */,
+				9409E1371ABF6FEA00312E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9409E1381ABF6FEA00312E2B /* Build configuration list for PBXNativeTarget "Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9409E1391ABF6FEA00312E2B /* Debug */,
+				9409E13A1ABF6FEA00312E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0A3C827323E1DCC400F4A594 /* Radio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A3C827423E1DCC400F4A594 /* Radio.xcdatamodel */,
+			);
+			currentVersion = 0A3C827423E1DCC400F4A594 /* Radio.xcdatamodel */;
+			path = Radio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9409E10E1ABF6FE900312E2B /* Project object */;
+}
